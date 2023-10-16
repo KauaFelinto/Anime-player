@@ -1,0 +1,30 @@
+.menu-bar{
+    width: 100%;
+    height: 70px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+.logo > h1{
+    margin-left: 15px;
+    color: #b65800;
+}
+
+.sets > ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+.sets > ul > li > a{
+    text-decoration: none;
+    color: white;
+}
+
+.search > input{
+    margin: 20px;
+    height: 30px;
+}

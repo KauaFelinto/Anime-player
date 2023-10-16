@@ -1,0 +1,20 @@
+.card-explorer{
+    margin: 30px;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.image > img{
+    border: 3px solid #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.image{
+    transition: .5s;
+}
+.image:hover{
+    margin-top: -10px;
+    transition: .5s;
+}
+
